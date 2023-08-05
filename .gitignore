@@ -5,8 +5,13 @@ __pycache__/
 
 # C extensions
 *.so
-
+#outputs
+**/output/
+**/Outputs/
+**/dataset/
+**/plots/
 # Distribution / packaging
+**.rar
 .Python
 build/
 develop-eggs/
