@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-08-26T00:04:12.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZjHRx9q6u0KSNL-EnjTa" version="21.6.6" type="device">
+  <diagram name="Page-1" id="smnIuyHQyz7csETvXi8C">
+    <mxGraphModel dx="1050" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="170" y="180" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" source="iQATaUj6jkNzJtKxYBZ7-1" target="iQATaUj6jkNzJtKxYBZ7-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" source="iQATaUj6jkNzJtKxYBZ7-1" target="iQATaUj6jkNzJtKxYBZ7-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-1" value="Data Collection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-5" value="Data Preprocessing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="255" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" source="iQATaUj6jkNzJtKxYBZ7-6" target="iQATaUj6jkNzJtKxYBZ7-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-6" value="Handle Mising Values" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="190" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" source="iQATaUj6jkNzJtKxYBZ7-7" target="iQATaUj6jkNzJtKxYBZ7-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-7" value="Standardization" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="350" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" source="iQATaUj6jkNzJtKxYBZ7-9" target="iQATaUj6jkNzJtKxYBZ7-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-22" value="X-Train" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="iQATaUj6jkNzJtKxYBZ7-12" vertex="1" connectable="0">
+          <mxGeometry x="0.3162" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-9" value="Train-Test Split" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="350" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" source="iQATaUj6jkNzJtKxYBZ7-15" target="iQATaUj6jkNzJtKxYBZ7-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-21" value="Instance of&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;KNN Classifier" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="iQATaUj6jkNzJtKxYBZ7-18" vertex="1" connectable="0">
+          <mxGeometry x="0.2562" y="-2" relative="1" as="geometry">
+            <mxPoint x="19" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-15" value="Initialize KNN Classifier" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="420" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" source="iQATaUj6jkNzJtKxYBZ7-19" target="iQATaUj6jkNzJtKxYBZ7-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-19" value="Fitted KNN Classifier" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="160" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-23" value="KNN Classifier Evaluation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="160" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" target="iQATaUj6jkNzJtKxYBZ7-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="425" y="609.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-25" value="X-Test" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="iQATaUj6jkNzJtKxYBZ7-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.1441" y="-2" relative="1" as="geometry">
+            <mxPoint x="-13" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQATaUj6jkNzJtKxYBZ7-27" value="Data Visualization" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="365" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
